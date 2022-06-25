@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ffmpegwithpy_feature"
+version = "0.1.0"
+description = "ffmpegwithpy feature"
+authors = ["My <84212641+My-MC@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "1.9.1"
+
+[tool.poetry.dev-dependencies]
+notebook = "6.4.12"
+isort = "5.10.1"
+black = {extras = ["jupyter"], version = "^22.3.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

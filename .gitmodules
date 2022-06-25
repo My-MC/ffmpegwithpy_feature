@@ -1,0 +1,3 @@
+[submodule "ffmpegwithpy"]
+	path = ffmpegwithpy
+	url = https://github.com/My-MC/ffmpegwithpy.git
